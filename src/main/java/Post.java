@@ -1,7 +1,6 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 
-
 public class Post {
     private final String id;
     private final String text;
@@ -44,7 +43,7 @@ public class Post {
     }
 
     @Override
-    public String  toString() {
+    public String toString() {
         return "Post{" +
                 "\n id='" + id + '\'' +
                 "\n text='" + text + '\'' +
